@@ -114,8 +114,8 @@ class results {
 };
 
 int main(int argc, char *argv[]){
-    question q1("How big is yo mama: ");
-    question q2("How big is yo dada: ");
+    question q1("This is an example question: ");
+    question q2("This is for demonstration purposes: ");
     std::cout << "Current TrackTotal: " << trackTotal << "\n";
     std::cout << "Total Number Of Unsures: " << unsures << "\n";
     results r("word");
