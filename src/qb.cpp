@@ -115,12 +115,13 @@ namespace qb{
     };
 }
 
-int main(int argc, char *argv[]){
-    qb::question q1("This is an example question: ");
-    qb::question q2("This is for demonstration purposes: ");
-    std::cout << "Current TrackTotal: " << trackTotal << "\n";
-    std::cout << "Total Number Of Unsures: " << unsures << "\n";
-    qb::results r("word");
-    system("pause");
-    return 0;
-}
+// TEST FUNCTION
+// int main(int argc, char *argv[]){
+//     qb::question q1("This is an example question: ");
+//     qb::question q2("This is for demonstration purposes: ");
+//     std::cout << "Current TrackTotal: " << trackTotal << "\n";
+//     std::cout << "Total Number Of Unsures: " << unsures << "\n";
+//     qb::results r("word");
+//     system("pause");
+//     return 0;
+// }
